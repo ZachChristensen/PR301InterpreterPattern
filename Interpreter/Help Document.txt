@@ -1,0 +1,62 @@
+Help File for command line interpreter 
+
+Commands:
+
+quit
+    Saves currently loaded data to be loaded on next startup and exits the interpreter
+    
+    Usage:
+        quit
+        
+help
+    Displays available commands. If put in front of a command it displays the help and usage for that command.
+    
+    Usage:
+        help  
+        ?
+        help [command]
+        ? [command]
+    Parameters:
+        command is the name of the command you want to see help for
+    
+load_csv
+    Loads data from a csv to the model so it can later be displayed
+    
+    Usage:
+        load_csv args
+
+    Parameters:
+        args: Full file path for .csv file you want to load.    
+        
+load_plain
+    Loads data from a .txt to the model so it can later be displayed
+        Values in text file must be separated by commas and each data point should be on its own line.
+    
+    Usage:
+        load_plain args
+
+    Parameters:
+        args: Full file path for .txt file you want to load.
+
+delete_all
+    Deletes all data currently loaded into the program.
+    
+    Usage:
+        delete_all
+
+display_sales
+    Outputs the sales data as bar chart.
+        Usage:
+            display_sales
+
+display_gender
+    Outputs the gender of employees as pie chart.
+        Usage:
+            display_gender
+            
+display_weight
+    Outputs the sales data as bar chart.
+        Usage:
+            display_sales
+
+        
