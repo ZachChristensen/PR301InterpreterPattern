@@ -43,7 +43,7 @@ class Controller:
         except FileNotFoundError:
             print("File Does Not Exist")
             return
-        self.myModel.data_handler.read_in(self.myModel.data_handler, path)
+        self.myModel.data_handler.read_in(path)
 
     def save_data(self):
         self.myModel.data_handler.save_pickle_data()

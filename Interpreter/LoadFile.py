@@ -7,5 +7,5 @@ class LoadFile(metaclass=ABCMeta):
         self.data = ""
 
     @abstractmethod
-    def load_data(self):
+    def load_data(data_handler, path):
         pass

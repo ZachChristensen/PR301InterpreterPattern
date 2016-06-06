@@ -6,7 +6,6 @@ class LoadFilePlainText(LoadFile):
     def __init__(self):
         print("loading plain text file...")
 
-    @staticmethod
     def load_data(data_handler, path):
         print(str(data_handler.__class__) + " " + path)
         file = open(path)

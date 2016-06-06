@@ -6,8 +6,7 @@ class LoadFileCSV(LoadFile):
     def __init__(self):
         print("loading csv file...")
 
-    @staticmethod
-    def load_data(data_handler, path):
+    def load_data(self, data_handler, path):
         print(str(data_handler.__class__) + " " + path)
         file = open(path)
         txt = file.read()
